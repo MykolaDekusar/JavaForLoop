@@ -8,6 +8,15 @@ public class Main {
 		for(int i=1; i<=10; i++) {
 			System.out.println(i);
 		}
+		//ciclo da 10 a 1
+		for(int i =10;i>0;i--) {
+			System.out.println(i);
+		}
+		//posso mettere l'incremento anche all'interno del ciclo
+		for(int i=1; i<=10;) {
+			System.out.println(i);
+			i++;
+		}
 	}
 
 }
